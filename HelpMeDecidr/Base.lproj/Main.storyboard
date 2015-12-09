@@ -56,7 +56,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="-424"/>
+            <point key="canvasLocation" x="62" y="-680"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="63a-dd-lZ8">
+            <objects>
+                <viewController id="hMQ-UE-CwR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ElR-iR-1ph"/>
+                        <viewControllerLayoutGuide type="bottom" id="GzL-GT-Eqh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LXM-O8-6in">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="TZn-rs-JX2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z7h-Zn-KZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="94" y="179"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -70,11 +89,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="hMQ-UE-CwR" kind="relationship" relationship="viewControllers" id="T5H-pI-Drg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1026" y="-160"/>
+            <point key="canvasLocation" x="-1018" y="-240"/>
         </scene>
     </scenes>
     <resources>
